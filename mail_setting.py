@@ -4,7 +4,7 @@ from email.mime.application import MIMEApplication
 def mail_login():
     smtpserver = "smtp.exmail.qq.com"
     username = "xxsjfxyj@jycinema.com"
-    password = "JYshuju666"
+    password = ******
     sender = "xxsjfxyj@jycinema.com" 
     smtp = smtplib.SMTP_SSL(smtpserver,465)
     smtp.ehlo()
